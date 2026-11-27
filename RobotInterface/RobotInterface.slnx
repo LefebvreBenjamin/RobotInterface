@@ -1,3 +1,6 @@
 <Solution>
-  <Project Path="RobotInterface/RobotInterface.csproj" />
+  <Project Path="../ExtendedSerialPort_.NET8/ExtendedSerialPort .NET8/ExtendedSerialPort/ExtendedSerialPort/ExtendedSerialPort.csproj" />
+  <Project Path="RobotInterface/RobotInterface.csproj">
+    <BuildDependency Project="../ExtendedSerialPort_.NET8/ExtendedSerialPort .NET8/ExtendedSerialPort/ExtendedSerialPort/ExtendedSerialPort.csproj" />
+  </Project>
 </Solution>
